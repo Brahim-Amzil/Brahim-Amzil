@@ -1,1 +1,2 @@
-- 👋 Hi, I’m @Brahim-Amzil
+Dev Camp / Basque
+Coding Foundations Project
