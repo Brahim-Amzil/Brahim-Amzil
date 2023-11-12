@@ -1,0 +1,145 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    color: #cbcbcb;
+    padding: 20px 20px;
+}
+
+.navbar > .logo img {
+    width: 180px;
+    height: auto;
+}
+
+.navbar > .nav-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+
+.navbar > .nav-box > .explore-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.navbar > .nav-box > .navi-links-box {
+    margin: 0px 0;
+}
+
+.navbar > .nav-box > .explore-row a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-family: "Ubuntu condensed", sans-serif;
+    font-weight: 200;
+    color: #f4c032;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: left;
+    gap: 0px;
+}
+
+.navbar > .nav-box > .navi-links-box a {
+    margin-top: 0px;
+    margin-right: 10px;
+    font-family: "Roboto condensed", sans-serif;
+    color: #cbcbcb;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+.navbar > .nav-box > .navi-links-box a:hover {
+    margin-right: 10px;
+    font-family: "Roboto condensed", sans-serif;
+    color: #f8c33e;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+
+.navbar >  .top-navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.navbar >  .top-navbar-buttons > .top-nav-btn {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #35383F;
+    font-size: 1.1em;
+    color: #cbcbcb;
+    cursor: pointer;
+}
+
+.navbar >  .top-navbar-buttons > .top-nav-btn:hover {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 14px;
+    background-color: #27282a;
+    color: #eeb93e;
+    transition: 0.5s;
+}
+
+
+
+ .navbar >  .top-navbar-buttons i:hover {
+    color: #f8c33e;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: 0.5s;
+} 
+
+
+
+/* .navbar >  .top-navbar-buttons i:hover {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 14px;
+    background-color: #27282a;
+    color: #eeb93e;
+    transition: 0.5s;
+} */
+
+
+
+
+
+.navbar >  .top-navbar-buttons > .top-nav-btn:hover  #create-chevron {
+    color: #f6f4f0;
+    transition: 0.5s;
+    transform: translateY(5px);
+}
+
+
+
+
+.navbar >  .top-navbar-buttons > .top-nav-btn:active {
+    background-color: #7b9ad9;
+    transition: 0.5s;
+}
+
+
+.navbar > .top-navbar-buttons #create-chevron {
+    color: #18d040;
+}
+

@@ -1,0 +1,27 @@
+footer {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgb(50, 50, 62);
+    margin-bottom: 3rem;
+}
+
+footer span {
+    font-weight: bolder;
+}
+
+footer a {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a:hover {
+    color: #31e7ff;
+    transition: 1s;
+}

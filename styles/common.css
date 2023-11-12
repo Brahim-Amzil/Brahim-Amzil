@@ -1,0 +1,49 @@
+.CTA-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.signUp-btn {
+    font-size: 1.5rem !important;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #4BCE78;
+    border: none;
+}
+
+.signUp-btn:hover {
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    background: #1d723b;
+    border-radius: 12px;
+    transition: 0.5s;
+
+}
+
+.more-btn {
+    font-size: 1.5rem !important;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background: black;
+    border: none;
+}
+
+.more-btn:hover {
+    transition: 1s;
+    color: white;
+    background: rgb(74, 74, 74);
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+
+
+.image-wrap h4 {
+    margin-top: 0;
+    color: white;
+    margin-bottom: 5px;
+}
